@@ -1,0 +1,12 @@
+irb(main):001:0> i = 0
+=> 0
+irb(main):002:0> a = ['100', 100.0]
+=> ["100", 100.0]
+irb(main):003:0> while i < 2
+irb(main):004:1> puts a[i].to_i
+irb(main):005:1> i = i + 1
+irb(main):006:1> end
+100
+100
+=> nil
+

@@ -1,0 +1,12 @@
+irb(main):001:0> 4 + 'four'
+TypeError: String can't be coerced into Fixnum
+	from (irb):1:in `+'
+	from (irb):1
+	from :0
+irb(main):002:0> 4.class
+=> Fixnum
+irb(main):003:0> (4.0).class
+=> Float
+irb(main):004:0> 4 + 4.0
+=> 8.0
+

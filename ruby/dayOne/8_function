@@ -1,0 +1,11 @@
+irb(main):001:0> def add_them_up
+irb(main):002:1> 4 + 'four'
+irb(main):003:1> end
+=> nil
+irb(main):004:0> add_them_up
+TypeError: String can't be coerced into Fixnum
+	from (irb):2:in `+'
+	from (irb):2:in `add_them_up'
+	from (irb):4
+	from :0
+

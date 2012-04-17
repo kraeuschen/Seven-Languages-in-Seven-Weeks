@@ -1,0 +1,25 @@
+irb(main):001:0> x = 4
+=> 4
+irb(main):002:0> puts 'This appears to be false.' unless x == 4
+=> nil
+irb(main):003:0> puts 'This appears to be true.' if x == 4
+This appears to be true.
+=> nil
+irb(main):004:0> if x == 4
+irb(main):005:1> puts 'This appears to be true'
+irb(main):006:1> end
+This appears to be true
+=> nil
+irb(main):007:0> unless x == 4
+irb(main):008:1> puts 'This appears to be false'
+irb(main):009:1> else
+irb(main):010:1* puts 'This appears to be true'
+irb(main):011:1> end
+This appears to be true
+=> nil
+irb(main):012:0> puts 'This appears to be true.' if not true
+=> nil
+irb(main):013:0> puts 'This appears to be true.' if !true
+=> nil
+irb(main):014:0> 
+

@@ -1,0 +1,18 @@
+irb(main):001:0> i = 1
+=> 1
+irb(main):002:0> while i < 11
+irb(main):003:1> puts "This is sentence #{i}."
+irb(main):004:1> i = i + 1
+irb(main):005:1> end
+This is sentence 1.
+This is sentence 2.
+This is sentence 3.
+This is sentence 4.
+This is sentence 5.
+This is sentence 6.
+This is sentence 7.
+This is sentence 8.
+This is sentence 9.
+This is sentence 10.
+=> nil
+

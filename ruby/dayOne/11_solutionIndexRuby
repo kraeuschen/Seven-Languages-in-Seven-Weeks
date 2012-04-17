@@ -1,0 +1,5 @@
+irb(main):001:0> hi = 'Hello Ruby'
+=> "Hello Ruby"
+irb(main):002:0> hi.index('Ruby')
+=> 6
+
