@@ -1,0 +1,13 @@
+irb(main):001:0> def tell_the_truth(options={})
+irb(main):002:1> if options[:profession] == :lawyer
+irb(main):003:2> 'it could be believed that this is almost certainly not false'
+irb(main):004:2> else
+irb(main):005:2* true
+irb(main):006:2> end
+irb(main):007:1> end
+=> nil
+irb(main):008:0> tell_the_truth
+=> true
+irb(main):009:0> tell_the_truth :profession => :lawyer
+=> "it could be believed that this is almost certainly not false"
+irb(main):010:0> 

@@ -1,0 +1,15 @@
+irb(main):001:0> 3.times {puts 'hiya there, kiddo'}
+hiya there, kiddo
+hiya there, kiddo
+hiya there, kiddo
+=> 3
+irb(main):002:0> animals = ['lions and ', 'tigers and', 'bears', 'oh my']
+=> ["lions and ", "tigers and", "bears", "oh my"]
+irb(main):003:0> animals.each {|a| puts a}
+lions and 
+tigers and
+bears
+oh my
+=> ["lions and ", "tigers and", "bears", "oh my"]
+irb(main):004:0> 
+

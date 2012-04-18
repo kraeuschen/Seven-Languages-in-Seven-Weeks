@@ -1,0 +1,12 @@
+irb(main):001:0> a = [5,3,4,1]
+=> [5, 3, 4, 1]
+irb(main):002:0> a.inject(0) do |sum, i|
+irb(main):003:1* puts "sum: #{sum} i: #{i} sum + i: #{sum + i}"
+irb(main):004:1> sum + i
+irb(main):005:1> end
+sum: 0 i: 5 sum + i: 5
+sum: 5 i: 3 sum + i: 8
+sum: 8 i: 4 sum + i: 12
+sum: 12 i: 1 sum + i: 13
+=> 13
+

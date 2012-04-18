@@ -1,0 +1,14 @@
+class Grep
+  def initialize(filename)
+    @io_stream = IO.readlines(filename)    
+  end
+ 
+  def grep_for(phrase)
+    @io_stream.each do |line|
+      puts "line #{@io_stream.index(line)} : #{line}" if line.match(phrase)
+    end
+  end
+end
+ 
+grep = Grep.new("lorem.txt")
+grep.grep_for("word")

@@ -1,0 +1,11 @@
+irb(main):001:0> number = {1 => 'one', 2 => 'two'}
+=> {1=>"one", 2=>"two"}
+irb(main):002:0> number[1]
+=> "one"
+irb(main):003:0> number[2]
+=> "two"
+irb(main):004:0> stuff = {:array => [1,2,3], :string => 'Hi, mom!'}
+=> {:array=>[1, 2, 3], :string=>"Hi, mom!"}
+irb(main):005:0> stuff[:string]
+=> "Hi, mom!"
+

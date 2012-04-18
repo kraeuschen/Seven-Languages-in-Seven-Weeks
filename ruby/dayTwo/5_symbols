@@ -1,0 +1,15 @@
+irb(main):001:0> 'string'.object_id
+=> -610128798
+irb(main):002:0> 'string'.object_id
+=> -610140808
+irb(main):003:0> 'string'.object_id
+=> -610146338
+irb(main):004:0> 'string'.object_id
+=> -610156248
+irb(main):005:0> :string.object_id
+=> 75858
+irb(main):006:0> :string.object_id
+=> 75858
+irb(main):007:0> :string.object_id
+=> 75858
+

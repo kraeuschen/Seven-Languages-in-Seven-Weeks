@@ -1,0 +1,22 @@
+irb(main):001:0> animals = ['lions', 'tigers', 'bears']
+=> ["lions", "tigers", "bears"]
+irb(main):002:0> puts animals
+lions
+tigers
+bears
+=> nil
+irb(main):003:0> animals[0]
+=> "lions"
+irb(main):004:0> animals[2]
+=> "bears"
+irb(main):005:0> animals[10]
+=> nil
+irb(main):006:0> animals[-1]
+=> "bears"
+irb(main):007:0> animals[-2]
+=> "tigers"
+irb(main):008:0> animals[0..1]
+=> ["lions", "tigers"]
+irb(main):009:0> (0..1).class
+=> Range
+

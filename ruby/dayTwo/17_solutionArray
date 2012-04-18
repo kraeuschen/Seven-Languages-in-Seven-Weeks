@@ -1,0 +1,16 @@
+a = (1..16).to_a();
+
+a.each {|x|
+
+if x%4 == 0
+    puts x
+else
+    print x
+    print ', '
+end}
+
+puts
+
+a.each_slice(4) {|a| puts(a.join(", "))}
+
+
