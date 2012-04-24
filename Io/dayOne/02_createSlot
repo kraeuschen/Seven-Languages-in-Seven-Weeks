@@ -1,0 +1,24 @@
+Io 20110905
+Io> Vehicle := Object clone
+==>  Vehicle_0x82f0ef0:
+  type             = "Vehicle"
+
+Io> Vehicle description := "something to take you places"
+==> something to take you places
+Io> Vehicle description = "something to take you far away"
+==> something to take you far away
+Io> Vehicle nonexistingSlot = "this wont work"
+
+  Exception: Slot nonexistingSlot not found. Must define slot using := operator before updating.
+  ---------
+  message 'updateSlot' in 'Command Line' on line 1
+
+Io> Vehicle description 
+==> something to take you far away
+Io> Vehicle slotNames
+==> list(description, type)
+Io> Vehicle type
+==> Vehicle
+Io> Object type
+==> Object
+

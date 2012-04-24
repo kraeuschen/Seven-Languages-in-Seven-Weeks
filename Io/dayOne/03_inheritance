@@ -1,0 +1,40 @@
+Io> Vehicle := Object clone
+==>  Vehicle_0x8ce7ef0:
+  type             = "Vehicle"
+
+Io> Vehicle description := "something to take you far away"
+==> something to take you far away
+
+Io> Car := Vehicle clone
+==>  Car_0x8cba748:
+  type             = "Car"
+
+Io> Car slotNames 
+==> list(type)
+Io> Car type
+==> Car
+
+Io> Car description
+==> something to take you far away
+
+Io> ferrari := Car clone
+==>  Car_0x8c8ba40:
+
+Io> ferrari slotNames
+==> list()
+
+Io> ferrari type
+==> Car
+
+Io> Ferrari := Car clone
+==>  Ferrari_0x8b60988:
+  type             = "Ferrari"
+
+Io> Ferrari type
+==> Ferrari
+Io> Ferrari slotNames
+==> list(type)
+Io> ferrari slotNames
+==> list()
+
+

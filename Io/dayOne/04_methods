@@ -1,0 +1,47 @@
+Io> method("so, youve come for an argument" println)
+==> method(
+    "so, youve come for an argument" println
+)
+Io> method() type
+==> Block
+Io> Car := Object clone
+==>  Car_0x8a6de78:
+  type             = "Car"
+
+Io> Car drive := method("Vroom" println)
+==> method(
+    "Vroom" println
+)
+Io> ferrari := clone Car
+==>  Car_0x8a6de78:
+  drive            = method(...)
+  type             = "Car"
+
+Io> ferrari drive
+Vroom
+==> Vroom
+Io> ferrari getSlot("drive")
+==> method(
+    "Vroom" println
+)
+
+Io> ferrari getSlot("type")
+==> Car
+Io> Car proto
+==>  Object_0x893d558:
+                   = Object_()
+  !=               = Object_!=()
+...
+
+Io> Lobby
+==>  Object_0x8952028:
+  Car              = Car_0x8a6de78
+  Lobby            = Object_0x8952028
+  Protos           = Object_0x8951f58
+  _                = Object_0x8952028
+  exit             = method(...)
+  ferrari          = Car_0x8a6de78
+  forward          = method(...)
+  set_             = method(...)
+
+ 
