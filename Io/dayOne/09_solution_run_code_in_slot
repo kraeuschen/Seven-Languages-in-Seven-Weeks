@@ -1,0 +1,34 @@
+Io> Jan := Object clone
+==>  Jan_0x8564f00:
+  type             = "Jan"
+
+Io> Jan sayHello := method("hello" println)
+==> method(
+    "hello" println
+)
+Io> Jan sayHello
+hello
+==> hello
+
+
+Io> Jan := Object clone;
+==>  Jan_0x983cf10:
+  type             = "Jan"
+
+Io> Jan name := "Jan";
+==> Jan
+Io> Jan sayHello := method("Hello, i am " .. name .. ".");
+==> method(name, 
+    "Hello, i am " .. name .. "."
+)
+Io> Jan sayHello(Jan name)
+==> Hello, i am Jan.
+
+Io> Jan sayHello := method(return "Hello fans, im " .. name)      
+==> method(
+    return "Hello fans, im " .. name
+)
+Io> Jan sayHello
+==> Hello fans, im Jan
+
+

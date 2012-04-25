@@ -1,0 +1,20 @@
+Io> 4 < 5
+==> true
+Io> 4 == 3
+==> false
+Io> true and false
+==> false
+Io> true and true
+==> true
+Io> true or true
+==> true
+Io> true or false
+==> true
+Io> 4 < 5 and 6 > 7
+==> false
+Io> true and 6
+==> true
+Io> true and 0
+==> true
+
+

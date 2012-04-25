@@ -1,0 +1,41 @@
+Io> true clone
+==> true
+Io> false clone
+==> false
+Io> nil clone
+==> nil
+Io> Highlander := Object clone
+==>  Highlander_0x8bf4448:
+  type             = "Highlander"
+
+Io> Highlander clone := Highlander
+==>  Highlander_0x8bf4448:
+  clone            = Highlander_0x8bf4448
+  type             = "Highlander"
+
+Io> Highlander clone
+==>  Highlander_0x8bf4448:
+  clone            = Highlander_0x8bf4448
+  type             = "Highlander"
+
+Io> fred := Highlander clone
+==>  Highlander_0x8bf4448:
+  clone            = Highlander_0x8bf4448
+  type             = "Highlander"
+
+Io> mike := Highlander clone
+==>  Highlander_0x8bf4448:
+  clone            = Highlander_0x8bf4448
+  type             = "Highlander"
+
+Io> fred == mike
+==> true
+Io> one := Object clone
+==>  Object_0x8aed7d0:
+
+Io> two := Object clone
+==>  Object_0x8b478e0:
+
+Io> one == two
+==> false
+
